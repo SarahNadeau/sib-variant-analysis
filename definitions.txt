@@ -1,0 +1,10 @@
+Definitions:
+* Variant: any difference in DNA (from SNV to missing chromosomes); associated with a position
+* Mutation: any change in DNA (if you have a variant, there has been a mutation)
+* Polymorphism: no strict definition, usually used to mean variation that is common in a population of interest (i.e. allele frequency >1%)
+* Allele: a version of a particular variant; a type
+* Haplotype: alleles on the same chromosome (often within a relatively short region on the chromosome)
+	* Interesting to know because genetic variation is often multi-allelic (e.g. cystic fibrosis phenotype is caused by 2 alleles in combination)
+* Phasing: figuring out if alleles are on the same chromosome (phasing produces haplotypes)
+	* Interesting to do because then you can do GWAS on the whole haplotype to improve power for multi-allelic traits (you are better able to catch these types of association).
+* Example of the above definitions in practice: there is a variant at position 54, it's a SNV and the alleles in the population are T and C. Since >1% of the population is T and >1% is C, this variant is a polymorphism
